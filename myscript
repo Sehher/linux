@@ -1,0 +1,45 @@
+#!/bin/bash
+echo "hello world"
+echo "I need energy"
+
+if [ 101 -gt 100 ]
+then
+ echo "101 is greater than 100"
+fi
+
+echo "enter your name"
+read inputName
+echo "Hello, ${inputName}!"
+
+echo "Enter 3 names separated with spaces with spaces and press return"
+read names
+personNumber=1
+
+for i in $names
+do
+ echo "Person Number ${personNumber} is ${i}"
+ ((personNumber++))
+done
+
+looper=1
+while [ $looper -lt 5 ]
+do
+ echo "${looper} is smaller than 5"
+ ((looper++))
+done
+echo "-----------"
+loopy=1
+until [ $loopy == 6 ]
+do
+ echo "${loopy} is smaller than 7"
+ ((loopy++))
+done
+
+echo "enter grade"
+read grade
+
+case $grade in
+ "A") echo "great";;
+ "B") echo "good";;
+ *) echo "Failure";;
+esac

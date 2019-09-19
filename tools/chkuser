@@ -1,0 +1,16 @@
+#!/bin/bash
+
+echo "Enter login username"
+read login
+
+echo $(whoami)
+
+if [ $login == $(whoami) ]
+then
+ echo "This user is logged in"
+else
+ echo "This user is not logged in"
+fi
+
+
+

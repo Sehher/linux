@@ -1,0 +1,4 @@
+ERROR 2019-09-17 09:04:35 nux.gestures_subscription GesturesSubscription.cpp:93 Failed to deactivate Geis subscription.
+ERROR 2019-09-17 09:04:35 nux.gestures_subscription GesturesSubscription.cpp:93 Failed to deactivate Geis subscription.
+ERROR 2019-09-17 09:04:35 nux.gestures_subscription GesturesSubscription.cpp:93 Failed to deactivate Geis subscription.
+WARN  2019-09-18 09:35:06 unity.shell.compiz unityshell.cpp:3271 Animation plugin not found. Can't set minimize speed.

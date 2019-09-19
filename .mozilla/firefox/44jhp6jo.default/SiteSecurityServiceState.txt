@@ -1,0 +1,6 @@
+www.google.co.uk:HSTS	0	18155	1600167031642,1,0
+tiles.services.mozilla.com:HSTS	0	18155	1600167020109,1,0
+aus5.mozilla.org:HSTS	0	18155	1600167076408,1,0
+shavar.services.mozilla.com:HSTS	0	18155	1600167019209,1,1
+www.google.com:HSTS	0	18155	1600167059190,1,0
+self-repair.mozilla.org:HSTS	0	18155	1600167022005,1,0

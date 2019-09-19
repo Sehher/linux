@@ -1,0 +1,10 @@
+#!/bin/bash
+
+v=test
+echo v
+echo $v
+echo $ving
+echo ${v}ing
+echo "${v}ing"
+echo "${v}ing app"
+

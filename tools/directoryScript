@@ -1,0 +1,12 @@
+#!/bin/bash
+
+mkdir ~/tools/newdir
+cd newdir
+touch newtoolfile
+touch newtoolfile2
+mv newtoolfile ~/
+echo "#!/bin/bash" > newtoolfile
+echo "pwd" >> newtoolfile
+echo "who" >> newtoolfile
+chmod u+x newtoolfile
+./newtoolfile
